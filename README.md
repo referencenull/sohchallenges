@@ -1,0 +1,2 @@
+# sohchallenges
+Serverless open hack
