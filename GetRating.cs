@@ -22,7 +22,7 @@ namespace My.Functions
             {
                 var ratings = allRatings.Where(r => r.Value<string>(@"id") == ratingId);
 
-                return !ratings.Any() ? new NotFoundObjectResult($@"No ratings found for ratingId '{ratingId}'") : (IActionResult)new OkObjectResult(ratings);
+                return !ratings.Any() ? new NotFoundObjectResult($@"No ratings found for Id '{ratingId}'") : (IActionResult)new OkObjectResult(ratings);
 
             }
             else
