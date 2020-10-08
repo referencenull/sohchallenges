@@ -11,5 +11,5 @@ namespace My.Functions
         {
             log.LogInformation($"C# function triggered to process a message: {myEventHubMessage}");
         }
-    }
+    } 
 }

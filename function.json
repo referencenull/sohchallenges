@@ -1,0 +1,10 @@
+{
+    "EventHubTrigger" : {
+      "type" : "eventHubTrigger",
+      "direction" : "in",
+      "eventHubName" :"socchallengeeventhub",
+      "consumerGroup" : "$Default"
+    },
+    "IsEncrypted": false
+  }
+  
